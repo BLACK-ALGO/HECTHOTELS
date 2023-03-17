@@ -1,0 +1,49 @@
+#content{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-top: 6px solid rgb(1, 17, 75);
+
+    margin: auto;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 350px;
+}
+input[type= text], input[type = tel], input[type = password]{
+
+    padding: 10px;
+    width: 40%;
+    border: 1px solid rgb(1, 17, 75);
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-align: auto;
+    resize: vertical;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: rockwell;
+
+
+}
+#label{
+    font-family: rockwell;
+    display: inline-block;
+    width: 250px;
+}
+#get{
+    margin-top: 10px;
+    font-family: rockwell;
+    background-color: rgb(1, 17, 75);
+    color: white;
+    border: none;
+    width: 40%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}

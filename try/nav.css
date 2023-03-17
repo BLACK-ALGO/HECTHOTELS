@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin-left: 5%;
+    font-size: 3em;
+    font-family: rockwell;
+    color: white;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.logo span{
+    color: tomato;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 5S;
+    cursor: pointer;
+}
+.nav_bar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(1, 17, 75);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+}
+.nav_bar ul{
+    margin-right: 6%;
+    display: flex;
+  margin-top: 2%;
+  
+ 
+}
+.nav_bar ul li{
+   list-style: none;
+   margin-left: 15px;
+  
+}
+    
+
+.nav_bar ul li a{
+    color: white;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 1.5em;
+   
+}
+.nav_bar ul li a:hover{
+    background-color: blueviolet;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.nav_bar ul ul{
+    position: relative;
+    top: 50px;
+   display: none;
+   height: 230px;
+   background-color: rgb(1, 17, 75);
+   border-radius: 6px;
+   margin-right: 1000%;
+}
+.nav_bar ul li:hover > ul{
+    display: block;
+    transition: all 60s;
+    position: fixed;
+}
+.nav_bar ul ul li{
+    width: 240px;
+    margin-top: 5px;
+    float: none;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid white;
+    
+}
+/*body*/
+.main_body{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(autofill, minmax(200px, 2fr));
+    
+}
+.book{
+    grid-template-columns: 1fr;
+    
+   
+}
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to bottom , #ff105f , rgb(1, 17, 75));
+    margin-bottom: 1%;
+}
+
+input[ type="search"]{
+    margin-top: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(1, 17, 75);
+    outline: none;
+   
+    width: 25%;
+    margin-right: 5%;
+    height: 5vh;
+    font-size: 1em;
+    font-family: rockwell;
+    border-radius: 5px;
+}
+
+.quary{
+    display: flex;
+    justify-content: center;
+    font-family: rockwell;
+}
+#Quary{
+    background: linear-gradient(to top right, rgb(1, 17, 75), #ff105f);
+    outline: none;
+    padding: 14px;
+    width: 10%;
+    margin-top: 3%;
+}

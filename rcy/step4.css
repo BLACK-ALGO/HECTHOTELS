@@ -1,0 +1,56 @@
+.main{
+    width: 30%;
+    height: 550px;
+    border-top: 6px solid rgb(1, 17, 75);
+    font-family: rockwell;
+    margin: auto;
+    display: block;
+
+    margin-top: 15px;
+    box-shadow: rgb(1, 17, 75);
+    border-radius: 6px;
+
+}
+input[type=checkbox], input[type=text]{
+border: rgb(1, 17, 75);
+margin-left: 10%;
+
+}
+input[type=text]{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(1, 17, 75);
+    border-radius: 8px;
+}
+
+#cont{
+    width: 60%;
+    padding: 10px;
+}
+#cont1{
+    margin-left: 5%;
+    width: 30%;
+    padding: 10px;
+}
+#cont1, #cont{
+    background-color: rgb(1, 17, 75);
+    border: none;
+    border-radius: 6px;
+    font-size: 100%;
+    font-family: rockwell;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#cont1 a, #cont a{
+    text-decoration: none;
+    color: white;
+}
+
+#cont1:hover, #cont:hover{
+  background-color: blueviolet;
+  transition: 2s;
+}
+#label, h3{
+    margin-left: 5%;
+}

@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+/*Nevigation bar*/
+
+.Navbar{
+    width: 100%;
+    
+    background-color: rgba(5, 16, 74);
+    height: 75px;
+    font-family: rockwell;
+    text-decoration: none;
+    margin-bottom: 15%;
+}
+
+label.logo a{
+    color:  white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-right: 90px;
+    text-decoration: none;
+    
+}
+.Navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+/*
+.hambuger{ 
+   
+    
+    display: block;
+    
+    z-index: 1;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    
+}
+.hambuger span{
+    display: block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 1;
+    transform-origin: 0 0;
+    transition: 0.4s;
+
+}
+.hambuger:hover span:nth-child(2){
+    transform: translateX(10px);
+    background-color: blueviolet;
+} 
+
+.hambuger .is-active span:nth-child(2){
+    opacity: 0;
+    transform: translateX(15px);
+} 
+
+.hambuger.is-active span:nth-child(1){
+    transform: translate(0px, -3px) rotate(45deg);
+}
+
+.hambuger.is-active span:nth-child(3){
+    transform: translate(0px, 3px) rotate(-45deg);
+}
+
+.hambuger.is-active:hover span{
+    background-color: blueviolet;
+} 
+
+
+@media(min-width: 768px){
+    
+
+}
+*/
+
+
+
+
+
+.Navbar ul li {
+   
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+.logo a span{
+    color: blueviolet;
+}
+
+.Navbar ul  li a{
+    color: white;
+    padding: 7px 13px;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.logo:hover {
+    color: blueviolet;
+    pointer-events: visibleFill;
+}
+
+.Navbar ul  li a:hover{
+    color: blueviolet;
+    
+}
+
+/*Body */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+#slider{
+ 
+    margin-left: 250px;
+
+}
+.main #article, #slider{
+    
+    display: inline-block;
+}
+#slider #search_bar{
+    margin-left: 250px;
+}
+#article{
+    
+    margin-left: 10px;
+    align-content: center;
+   
+}
+.main #article, #book_btn{
+    
+    align-items: flex-end;
+    text-align: center;
+}
+
+#search_btn{
+    padding: 12px 12px;
+    font-size: 19px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(1, 17, 75);
+    cursor: pointer;
+}
+#search_btn p{
+    color: white;
+    font-family: rockwell;
+    font-size: 20px;
+}
+#book_btn{
+    position: relative;
+    border: none;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    background-color: rgb(1, 17, 75);   
+    margin-bottom: 15px;
+    cursor: pointer;
+   
+}
+input[type = search]{
+    padding: 12px 14px;
+    border-radius: 6px;
+    font-size: 19px;
+    border-color: rgb(1, 17, 75);
+}
+#book_btn .sic{
+    
+    font-family: rockwell;
+    color: white;
+    text-decoration: none;
+}
+#book_btn:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+
+/*Footer */
+.footer{
+    position: fixed;   
+    bottom: 0px;
+   margin-top: 50px;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(1, 17, 75);
+}
+.footer p{
+    position: relative;
+    color: white;
+    margin-left: 10px;
+    font-family: Rockwell;
+    margin-bottom: 5px;
+}
+
+.footer a{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.footer #right{
+    text-align: center;
+    float: right;
+    margin-right: 5px;
+}
+
+/*grop*/
+.drop_down{
+    display: inline;
+}

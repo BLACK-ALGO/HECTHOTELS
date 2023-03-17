@@ -1,0 +1,85 @@
+.contacts{
+    width: 100%;
+    display: flex;
+    
+    height: 100vh;
+    justify-content: center;
+}
+.left{
+    height: 540px;
+    width: 35%;
+    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+.right{
+    
+    color: white;
+    height: 540px;
+    width: 25%;
+    background: linear-gradient(to right,#ff105f,rgb(1, 17, 75));
+    
+}
+.left #form{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+.right, .left{
+    border-top: 6px solid rgb(1, 17, 75);
+    margin-top: 5%;
+}
+h3{
+    text-align: center;
+}
+input{
+    outline: none;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style-type: none;
+    margin-top: 5%;
+    
+}
+button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    float: right;
+    font-family: rockwell;
+    background: linear-gradient(to right,#ff105f,rgb(1, 17, 75));
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    transition: 5s;
+    background: blueviolet;
+}
+textarea{
+    outline: none;
+    resize: none;
+}
+.SPOR{
+    display: flex;
+    justify-content: center;
+}
+.SPOR img{
+    width: 50%;
+    height: 50%;
+}

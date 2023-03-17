@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: rockwell;
+
+}
+
+.map_location{
+    height: 50px;
+    width: 95%;
+}
+
+.container{
+    border-top: 7px solid rgb(1, 17, 75);
+    align-items: center;
+    width: 450px;
+    height: 600px;
+    margin: 8% auto;
+    background:  #f2f2f2;
+    border-radius: 6px;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+}
+.container #form1, #form2, #form3, #form4, #form5, #form6{
+    align-self: center;
+    width: 380px;
+    position: absolute;
+    top: 5%;
+    left: 40px;
+    transition: 0.5s;
+}
+.container h2 ,p{
+    text-align: center;
+}
+#label1{
+    margin-bottom: 20px;
+}
+form input[type = text], input[type = number], input[type = file]{
+    margin-left: 80px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;
+}
+input[type = tel]{
+    margin-left: 80px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;
+}
+::placeholder{
+    color: #777;
+}
+
+input[type = checkbox]{
+    margin-bottom: 4%;
+    margin-right: 3%;
+}
+input[type = radio]{
+    margin-bottom: 4%;
+    margin-right: 3%;
+}
+.btn_box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+#form1 button, #form2 button, #form3 button, #form4 button, #form5 button, #form6 button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right,#ff105f,rgb(1, 17, 75));
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+#form3 , #form2, #form4, #form5, #form6{
+    left: 450px;
+    
+}
+
+.step_Row{
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+}
+.step_col{
+    width: 120px;
+    text-align: center;
+    position: relative;
+    color: #333;
+}
+ #progress{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    transition: 1s;
+}
+#pogress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #ffad06;
+
+}
+#label{
+    margin-top: 1px;
+}

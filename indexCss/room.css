@@ -1,0 +1,72 @@
+.content{
+   
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    background-color: #f2f2f2;
+    position: absolute;
+    display: block;
+    border-radius: 6px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 6px solid rgb(1, 17, 75);
+}
+
+input[type=number], input[type=text], select{
+    padding: 10px;
+    width: 35%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1 solid rgb(1, 17, 75);
+    box-align: auto;
+    resize: vertical;
+    margin-top: 5px;
+    font-family: rockwell;
+    margin-right: 5%;
+    outline: none;
+    margin-right: 2px;
+
+}
+#label{
+    margin-left: 10%;
+    font-family: rockwell;
+    display: inline-block;
+    width: 300px;
+}
+
+ button{
+    
+    font-family: rockwell;
+    background-color: rgb(1, 17, 75);
+    color: white;
+    border: none;
+    width: 40%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-family: rockwell;
+    margin-top: 15px;
+}
+ h2, p{
+     text-align: center;
+     font-family: rockwell;
+ }
+ #ritems{
+     margin-right: 0;
+ }
+ textarea{
+   margin-left: auto;
+   margin-right: 7%;
+   display: block;
+   border-radius: 6px;
+   font-family: rockwell;
+ }

@@ -1,0 +1,55 @@
+/*table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+}*/
+table, td, th, tr{
+    border: 1px solid;
+}
+tr > td{
+    padding: 5px 6px;
+}
+
+table{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+.btn{
+    width: 48%;
+    padding: 10px;
+    background-color: rgb(236, 69, 69);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btns{
+    background-color: rebeccapurple;
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn2{
+    margin-top: 1%;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 3%;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dis{
+
+    margin-left: 5%;
+}
+table tr:nth-child(odd){
+    background-color: red;
+}
+

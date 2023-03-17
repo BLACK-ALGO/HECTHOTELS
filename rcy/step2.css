@@ -1,0 +1,15 @@
+
+
+.article{
+    text-align: center;
+}
+.main{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 250px;
+    font-family: rockwell;
+}
+h3{
+    text-align: center;
+}

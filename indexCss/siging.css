@@ -1,0 +1,88 @@
+.content{
+       
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-top: 6px solid rgb(1, 17, 75);
+    margin: auto;
+    border-radius: 6px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 550px;
+}
+input[type= text], input[type = email], input[type = password], input[type = tel]{
+    margin-left: 1%;
+    width: 95%;
+    padding: 5px 5px;
+    /*margin: 1px 0;*/
+    border: 0;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;
+    
+
+}
+#label{
+    font-family: monospace;
+    width: 150px;
+}
+.info, .text{
+    margin-top: 5px;
+    text-align: center;
+    font-family: rockwell;
+}
+.info{
+    margin-bottom: 5px;
+}
+#join{ 
+    margin-top: 10px;
+    background-color: rgb(1, 17, 75);
+    border: none;
+    padding: 10px;
+    width: 30%;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin: auto;
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-family: rockwell;
+}
+#join:hover{
+    background-color: blueviolet;
+    transition: 1s;
+}
+#img2{
+    position: static;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+.Show{
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translate(80%);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: none;
+}
+.field {
+    position: relative;
+}
+/*password
+#pwd ,#rpwd{
+    -webkit-text-secuirity
+}*/
+
+.text_error{
+    color: red;
+    font-family: cursive;
+}
